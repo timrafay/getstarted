@@ -20,3 +20,9 @@ managedNodeGroups:
   - name: ng-1
     instanceType: t3.large
     desiredCapacity: 2
+    iam:
+     withAddonPolicies:
+      albIngress: true
+      autoScaler: true
+      efs: true
+      cloudwatch: true
