@@ -25,4 +25,4 @@ managedNodeGroups:
       albIngress: true
       autoScaler: true
       efs: true
-      cloudwatch: true
+      cloudWatch: true
