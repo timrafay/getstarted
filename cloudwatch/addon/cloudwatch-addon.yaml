@@ -10,7 +10,7 @@ spec:
     repository_ref: cloudwatch-repo
     repo_artifact_meta:
       git:
-        revision: main
+        revision: master
         repoArtifactFiles:
-        - relPath: cloudwatch-manifest.yaml
+        - relPath: cloudwatch/cloudwatch-agent/cloudwatch-manifest.yaml
           fileType: K8sYAMLFile
